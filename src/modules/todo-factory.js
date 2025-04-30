@@ -1,4 +1,4 @@
-export default function Todo({
+export default function TodoFactory({
   title,
   description,
   dueDate,
