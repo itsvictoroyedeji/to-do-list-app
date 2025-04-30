@@ -1,4 +1,27 @@
 import "./styles.css";
-import { greeting } from "./greetings"; // remove this line and src/greetings.js file
+import Project from "./modules/project.js";
+import Todos from "./modules/todos.js";
+import Todo from "./modules/todo.js";
 
-console.log(greeting);
+// const firstProject = new Project({
+//   name: "Vic's Project",
+//   todos: new Todos()
+// });
+
+// firstProject.addTodo(
+//   Todo({
+//     title: "First one", 
+//     description: "First description"
+//   })
+// );
+
+// firstProject.addTodo(
+//   Todo({
+//     title: "Second one", 
+//     description: "Second description",
+//     notes: "This is a note!"
+//   })
+// );
+
+// console.log(firstProject)
+// console.log(firstProject.getTodos.length)
