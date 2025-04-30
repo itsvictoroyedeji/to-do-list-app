@@ -11,4 +11,8 @@ export default class Todos {
     this.todosList.push(todo);
   }
 
+  removeTodo(index) {
+    this.todosList.splice(index, 1);
+  }
+
 }

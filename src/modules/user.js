@@ -19,4 +19,8 @@ export default class User {
   addNewProject(project) {
     this.projects.push(project);
   }
+
+  deleteProject(index) {
+    this.projects.splice(index, 1);
+  }
 }

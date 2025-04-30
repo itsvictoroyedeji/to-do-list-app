@@ -15,5 +15,9 @@ export default class Project {
   addTodo(todo) {
     this.todos.createTodo(todo); 
   }
+
+  deleteTodo(index) {
+    this.todos.removeTodo(index);
+  }
   
 }
