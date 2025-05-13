@@ -736,3 +736,10 @@ span.emoji {
 body:not(.dnd_active) .tBBBeoPXI6I_Dpvk7ytdgL_W8p4JvpKN:not(.cVf9NoVB53Z5JhspzdCSDAHmL3qtdBiu) .CyYcjJUieBpMa9EpeaMCgT06VDxGmHUC:hover {
   background-color: var(--selectable-secondary-hover-fill);
 }
+
+
+/* MAIN CONTAINER */
+
+.BQiNSs0, .BQiNSs0 > main {
+  
+}
