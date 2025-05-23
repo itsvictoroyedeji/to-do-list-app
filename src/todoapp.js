@@ -3,6 +3,9 @@ import User from "./modules/user.js";
 import Project from "./modules/project.js";
 import Todos from "./modules/todos.js";
 import TodoFactory from "./modules/todo-factory.js";
+// import ProjectsHomeList from "./pages/projects.js"
+
+// ProjectsHomeList();
 
 // 1. Get logic template right
 // 2. Link elements to index.js (which is the main controller)
