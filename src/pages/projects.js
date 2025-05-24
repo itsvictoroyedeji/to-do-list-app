@@ -80,18 +80,39 @@ export default function ProjectsHomeList() {
   // -------
 
   // <div class="imKBXQv fb8d74bb _4e9ab24b search-projects-container">
+  const searchProjectsContainer = document.createElement("div");
+  searchProjectsContainer.classList.add("imKBXQv", "fb8d74bb", "_4e9ab24b", "search-projects-container");
+  mainViewLayout.appendChild(searchProjectsContainer);
 
   // <div class="fb8d74bb _14423c92 _2d7320f2 c68f8bf6 _8c75067a">
+  const searchProjectsContainer2 = document.createElement("div");
+  searchProjectsContainer2.classList.add("fb8d74bb", "_14423c92", "_2d7320f2", "c68f8bf6", "_8c75067a");
+  searchProjectsContainer.appendChild(searchProjectsContainer2);
 
   // <div class="fb8d74bb _14423c92 _2d7320f2 _2580a74b _8c75067a project-search-box-container">
+  const projectSearchBoxContainer = document.createElement("div");
+  projectSearchBoxContainer.classList.add("fb8d74bb", "_14423c92", "_2d7320f2", "_2580a74b", "_8c75067a", "project-search-box-container");
+  searchProjectsContainer2.appendChild(projectSearchBoxContainer);
 
   // <div class="d5ff04da fb8d74bb _14423c92 _5f8879d9 b76144ce">
+  const projectSearchBoxContainer2 = document.createElement("div");
+  projectSearchBoxContainer2.classList.add("d5ff04da", "fb8d74bb", "_14423c92", "_5f8879d9", "b76144ce");
+  projectSearchBoxContainer.appendChild(projectSearchBoxContainer2);
 
   // <div class="fb8d74bb c3b69d70">
+  const projectSearchBoxContainer3 = document.createElement("div");
+  projectSearchBoxContainer2.classList.add("fb8d74bb", "c3b69d70");
+  projectSearchBoxContainer2.appendChild(projectSearchBoxContainer3);
 
   // <div class="c8f65b3b fb8d74bb _14423c92 _5f8879d9 b76144ce search-input-border">
+  const searchInputBorder = document.createElement("div");
+  searchInputBorder.classList.add("c8f65b3b", "fb8d74bb", "_14423c92", "_5f8879d9", "b76144ce", "search-input-border");
+  projectSearchBoxContainer3.appendChild(searchInputBorder);
 
   // <div class="b79b851f fb8d74bb _14423c92 _8e9bf2ee f9be90b4 _5f8879d9">
+  const searchInputBorder2 = document.createElement("div");
+  searchInputBorder2.classList.add("b79b851f", "fb8d74bb", "_14423c92", "_8e9bf2ee", "f9be90b4");
+  searchInputBorder.appendChild(searchInputBorder2);
 
   // <svg>...
   
